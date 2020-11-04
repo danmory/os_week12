@@ -1,0 +1,36 @@
+1.txt and DBUF_SIZE=1
+real    0m0,022s
+user    0m0,015s
+sys     0m0,008s
+1.txt and DBUF_SIZE=1 and SYNC
+real    0m0,021s
+user    0m0,014s
+sys     0m0,008s
+10.txt and DBUF_SIZE=1
+real    0m0,112s
+user    0m0,031s
+sys     0m0,083s
+10.txt and DBUF_SIZE=1 and SYNC
+real    0m0,120s
+user    0m0,037s
+sys     0m0,084s
+
+1.txt and DBUF_SIZE=128
+real    0m0,006s
+user    0m0,004s
+sys     0m0,002s
+1.txt and DBUF_SIZE=128 and SYNC
+real    0m0,011s
+user    0m0,004s
+sys     0m0,008s
+10.txt and DBUF_SIZE=128
+real    0m0,011s
+user    0m0,007s
+sys     0m0,005s
+10.txt and DBUF_SIZE=128 and SYNC
+real    0m0,012s
+user    0m0,007s
+sys     0m0,006s
+
+The bigger buffer -> the faster program
+Syncronization is enabled -> the program is slower
